@@ -1,0 +1,101 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: century;
+ 	
+}
+body{
+	justify-content: center;
+	align-items: center;
+	
+}
+
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(image/isalo.jpg);
+	height: 11vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.PARC a{
+	color: #fff;
+	
+	padding: 0px 20px;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.PARC span{
+	color: rgb(238, 56, 11);
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+ul{
+	list-style: none;
+	float: right;
+	display: flex;
+	margin-top: 30px;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid transparent;
+	margin: 10px;
+	font-weight: 500;
+	transition: 0.6 ease;
+}
+
+ul li a:hover{
+	background: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background: #fff;
+	color: #000;
+}
+
+.pricipale{
+	max-width: 114rem;
+	margin: 0 auto;
+}
+
+.container{
+	
+	max-width: 1400px;
+	margin: auto;
+	background: #f2f2f2;
+	overflow: auto;
+}
+
+.gallery{
+	margin: 15px;
+	border: 4px solid black;
+	float: right;
+	width: 300px;
+
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+.desc{
+	color: gray;
+	padding: 0px;
+	text-align: center;
+
+}
+

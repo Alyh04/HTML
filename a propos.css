@@ -1,0 +1,70 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: century;
+}
+
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(image/danga.jpg);
+	height: 11vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.PARC a{
+	color: #fff;
+	padding: 0px 20px;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 6px;
+	left: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.PARC span{
+	color: rgb(238, 56, 11);
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.article {
+    border: darkslategray solid 10px;;
+    background-color: aquamarine;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.coms1{
+    border: green 3px solid;
+    text-decoration: none;
+    position: absolute;
+    padding: 4vh;
+    top: 14%;
+    left: 3%;
+    right: 51%;
+}
+
+.coms2{
+    border: black 3px solid;
+    position: absolute;
+    text-transform: none;
+    padding: 4vh;
+    top: 14%;
+    left: 51%;
+    right: 3%;
+}
+
+
+
+
+
+
+
+
+
+
